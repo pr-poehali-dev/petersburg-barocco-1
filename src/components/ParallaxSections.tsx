@@ -27,63 +27,87 @@ interface HistoricalPeriod {
 const periods: HistoricalPeriod[] = [
   {
     id: 1,
-    period: "Зарождение",
-    years: "1703-1715",
-    title: "Основание новой столицы",
+    period: "Основание",
+    years: "1703-1712",
+    title: "Рождение новой столицы",
     description:
-      "Петр I закладывает основы архитектурного стиля, который станет символом новой России.",
+      "Петр I закладывает Петропавловскую крепость и начинает строительство города на болотистых берегах Невы.",
     details:
-      "В этот период началось строительство Санкт-Петербурга с принципиально новым подходом к архитектуре. Петр I привлекал европейских мастеров, которые адаптировали барочные традиции к русским условиям и потребностям.",
+      "16 мая 1703 года на Заячьем острове была заложена Петропавловская крепость, ставшая началом новой столицы. Петр I лично участвовал в планировке города, привлекая лучших европейских архитекторов. Доменико Трезини стал первым главным архитектором города, создав уникальный стиль петровского барокко, сочетающий европейские традиции с русскими потребностями.",
     achievements: [
-      "Основание Петропавловской крепости",
-      "Строительство первых государственных зданий",
+      "Основание Петропавловской крепости (1703)",
+      "Строительство первых каменных домов",
       "Создание регулярной планировки города",
-      "Приглашение европейских архитекторов",
+      "Начало строительства Адмиралтейства (1704)",
     ],
-    image: "https://images.unsplash.com/photo-1581833971358-2c8b550f87b3?w=600",
+    image:
+      "https://cdn.poehali.dev/files/6b32754d-b886-48da-8387-131c89c7bed9.jpg",
     backgroundImage:
-      "https://images.unsplash.com/photo-1547036967-23d11aacaee0?w=1200",
+      "https://cdn.poehali.dev/files/6b32754d-b886-48da-8387-131c89c7bed9.jpg",
     color: "emerald",
   },
   {
     id: 2,
     period: "Расцвет",
-    years: "1715-1725",
-    title: "Формирование стиля",
+    years: "1712-1725",
+    title: "Золотой век петровского барокко",
     description:
-      "Период активного строительства и становления характерных черт петровского барокко.",
+      "Период активного строительства дворцов и государственных зданий. Меншиковский дворец становится символом эпохи.",
     details:
-      "В эти годы сформировались основные принципы петровского барокко: сочетание европейских традиций с русскими особенностями, использование ярких цветов, богатый декор и функциональность построек.",
+      "В этот период были построены главные архитектурные шедевры эпохи: роскошный Меншиковский дворец (1710-1720), первый каменный жилой дом в городе, Летний дворец Петра I, здание Двенадцати коллегий. Александр Меншиков, ближайший соратник Петра, создал в своем дворце настоящий центр культурной жизни столицы. Дворец поражал современников богатством отделки и европейским комфортом.",
     achievements: [
-      "Завершение Петропавловского собора",
-      "Строительство Летнего дворца",
-      "Создание Летнего сада",
-      "Развитие дворцовой архитектуры",
+      "Завершение Меншиковского дворца (1720)",
+      "Строительство Летнего дворца Петра I (1714)",
+      "Создание здания Двенадцати коллегий",
+      "Основание Кунсткамеры (1714)",
     ],
-    image: "https://images.unsplash.com/photo-1553913861-c0fddf2619ee?w=600",
+    image:
+      "https://cdn.poehali.dev/files/f69d7f52-b7cf-4472-910e-37cfe3108ed6.jpg",
     backgroundImage:
-      "https://images.unsplash.com/photo-1571055107559-3e67626fa8be?w=1200",
-    color: "coral",
+      "https://cdn.poehali.dev/files/f69d7f52-b7cf-4472-910e-37cfe3108ed6.jpg",
+    color: "amber",
   },
   {
     id: 3,
+    period: "Развитие",
+    years: "1715-1730",
+    title: "Научные и культурные достижения",
+    description:
+      "Основание Академии наук и строительство образовательных учреждений. Палаты Кикина становятся центром просвещения.",
+    details:
+      "В этот период Санкт-Петербург становится не только административным, но и научным центром империи. В 1724 году основана Российская академия наук, разместившаяся в специально построенном здании. Палаты Кикина, построенные для сподвижника Петра, становятся местом размещения первых коллекций будущего Эрмитажа. Александро-Невский монастырь превращается в духовный центр новой столицы.",
+    achievements: [
+      "Основание Российской академии наук (1724)",
+      "Строительство палат Кикина (1714-1720)",
+      "Завершение Александро-Невского монастыря",
+      "Создание первых публичных библиотек",
+    ],
+    image:
+      "https://cdn.poehali.dev/files/a05be2e5-2b64-413f-be6c-e4f82d64ba50.jpg",
+    backgroundImage:
+      "https://cdn.poehali.dev/files/93167a6c-5339-416a-b06e-534a5e5bd075.jpg",
+    color: "blue",
+  },
+  {
+    id: 4,
     period: "Наследие",
     years: "1725-1740",
-    title: "Влияние на будущее",
+    title: "Петергофские шедевры",
     description:
-      "Петровское барокко становится основой для развития русской архитектуры XVIII века.",
+      "Завершение строительства загородных резиденций: Монплезира и павильонов Эрмитаж в Петергофе.",
     details:
-      "После смерти Петра I стиль продолжал развиваться, оказывая влияние на последующие архитектурные направления. Многие принципы петровского барокко были заложены в основу русского классицизма.",
+      "После смерти Петра I его архитектурные замыслы продолжают воплощаться. В Петергофе завершается строительство дворца Монплезир - любимой резиденции императора на берегу Финского залива, и изящного павильона Эрмитаж. Эти постройки демонстрируют зрелость петровского барокко, его способность создавать как парадные, так и интимные пространства, гармонично вписанные в природный ландшафт.",
     achievements: [
-      "Влияние на елизаветинское барокко",
-      "Формирование школы русских архитекторов",
-      "Создание архитектурных традиций",
-      "Развитие градостроительства",
+      "Завершение дворца Монплезир в Петергофе",
+      "Строительство павильона Эрмитаж",
+      "Создание системы фонтанов Петергофа",
+      "Формирование архитектурных традиций",
     ],
-    image: "https://images.unsplash.com/photo-1594736797933-d0401ba2fe65?w=600",
+    image:
+      "https://cdn.poehali.dev/files/86c92a90-c04a-41ac-8330-e049cada6277.png",
     backgroundImage:
-      "https://images.unsplash.com/photo-1547036967-23d11aacaee0?w=1200",
-    color: "slate",
+      "https://cdn.poehali.dev/files/edc53115-6f21-4f69-9f35-398cbbe034a7.jpg",
+    color: "teal",
   },
 ];
 
@@ -95,13 +119,23 @@ const ParallaxSections = () => {
   });
 
   return (
-    <section ref={containerRef} className="relative">
+    <section ref={containerRef} className="relative" id="parallax-sections">
       {periods.map((period, index) => {
         const isEven = index % 2 === 0;
         const yTransform = useTransform(
           scrollYProgress,
           [index / periods.length, (index + 1) / periods.length],
-          [100, -100],
+          [150, -150],
+        );
+
+        const opacity = useTransform(
+          scrollYProgress,
+          [
+            (index - 0.5) / periods.length,
+            index / periods.length,
+            (index + 0.5) / periods.length,
+          ],
+          [0.3, 1, 0.3],
         );
 
         return (
@@ -109,53 +143,60 @@ const ParallaxSections = () => {
             key={period.id}
             className="relative min-h-screen flex items-center overflow-hidden"
           >
-            {/* Parallax Background */}
+            {/* Enhanced Parallax Background */}
             <motion.div
               className="absolute inset-0 z-0"
               style={{
-                backgroundImage: `linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.4)), url(${period.backgroundImage})`,
+                backgroundImage: `linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.3)), url(${period.backgroundImage})`,
                 backgroundSize: "cover",
                 backgroundPosition: "center",
+                backgroundAttachment: "fixed",
                 y: yTransform,
+                opacity: opacity,
               }}
             />
 
+            {/* Gradient overlay for better text readability */}
+            <div className="absolute inset-0 bg-gradient-to-r from-black/40 via-transparent to-black/40 z-5" />
+
             {/* Content */}
-            <div className="relative z-10 container mx-auto px-4 py-16">
+            <div className="relative z-10 container mx-auto px-4 py-20">
               <div
-                className={`grid lg:grid-cols-2 gap-12 items-center ${!isEven ? "lg:grid-cols-2" : ""}`}
+                className={`grid lg:grid-cols-2 gap-16 items-center max-w-7xl mx-auto ${!isEven ? "lg:grid-cols-2" : ""}`}
               >
                 <motion.div
-                  initial={{ opacity: 0, x: isEven ? -60 : 60 }}
+                  initial={{ opacity: 0, x: isEven ? -80 : 80 }}
                   whileInView={{ opacity: 1, x: 0 }}
-                  transition={{ duration: 0.8 }}
+                  transition={{ duration: 1, ease: "easeOut" }}
                   className={isEven ? "lg:order-1" : "lg:order-2"}
                 >
-                  <Card className="bg-white/95 backdrop-blur-sm shadow-2xl border-0">
-                    <CardHeader>
-                      <div className="flex items-center gap-3 mb-2">
+                  <Card className="bg-white/95 backdrop-blur-lg shadow-2xl border-0 hover:shadow-3xl transition-all duration-500">
+                    <CardHeader className="pb-4">
+                      <div className="flex items-center gap-4 mb-4">
                         <div
-                          className={`w-3 h-3 rounded-full ${
+                          className={`w-4 h-4 rounded-full shadow-lg ${
                             period.color === "emerald"
                               ? "bg-emerald-500"
-                              : period.color === "coral"
-                                ? "bg-orange-500"
-                                : "bg-slate-500"
+                              : period.color === "amber"
+                                ? "bg-amber-500"
+                                : period.color === "blue"
+                                  ? "bg-blue-500"
+                                  : "bg-teal-500"
                           }`}
                         />
-                        <span className="text-sm font-medium text-slate-600 uppercase tracking-wide">
+                        <span className="text-sm font-bold text-slate-600 uppercase tracking-widest">
                           {period.period}
                         </span>
                       </div>
-                      <CardTitle className="text-3xl font-serif text-slate-900 mb-2">
+                      <CardTitle className="text-4xl font-serif text-slate-900 mb-3 leading-tight">
                         {period.title}
                       </CardTitle>
-                      <p className="text-slate-600 font-medium">
+                      <p className="text-slate-600 font-semibold text-lg">
                         {period.years}
                       </p>
                     </CardHeader>
                     <CardContent>
-                      <p className="text-slate-700 leading-relaxed mb-6">
+                      <p className="text-slate-700 leading-relaxed mb-8 text-lg">
                         {period.description}
                       </p>
 
@@ -165,56 +206,68 @@ const ParallaxSections = () => {
                             className={`${
                               period.color === "emerald"
                                 ? "bg-emerald-600 hover:bg-emerald-700"
-                                : period.color === "coral"
-                                  ? "bg-orange-600 hover:bg-orange-700"
-                                  : "bg-slate-600 hover:bg-slate-700"
-                            } text-white`}
+                                : period.color === "amber"
+                                  ? "bg-amber-600 hover:bg-amber-700"
+                                  : period.color === "blue"
+                                    ? "bg-blue-600 hover:bg-blue-700"
+                                    : "bg-teal-600 hover:bg-teal-700"
+                            } text-white shadow-lg hover:shadow-xl transition-all duration-300 px-6 py-3`}
                           >
-                            <Icon name="Info" className="mr-2 w-4 h-4" />
-                            Подробнее
+                            <Icon name="BookOpen" className="mr-2 w-5 h-5" />
+                            Подробная история
                           </Button>
                         </DialogTrigger>
-                        <DialogContent className="max-w-2xl max-h-[80vh] overflow-y-auto">
+                        <DialogContent className="max-w-4xl max-h-[85vh] overflow-y-auto">
                           <DialogHeader>
-                            <DialogTitle className="text-2xl font-serif text-slate-900">
-                              {period.title} ({period.years})
+                            <DialogTitle className="text-3xl font-serif text-slate-900 mb-2">
+                              {period.title}
                             </DialogTitle>
-                          </DialogHeader>
-                          <div className="space-y-6">
-                            <img
-                              src={period.image}
-                              alt={period.title}
-                              className="w-full h-64 object-cover rounded-lg"
-                            />
-                            <p className="text-slate-700 leading-relaxed">
-                              {period.details}
+                            <p className="text-xl text-slate-600 font-medium">
+                              {period.years}
                             </p>
-                            <div>
-                              <h4 className="font-semibold text-slate-900 mb-3">
-                                Ключевые достижения:
+                          </DialogHeader>
+                          <div className="space-y-8">
+                            <div className="relative">
+                              <img
+                                src={period.image}
+                                alt={period.title}
+                                className="w-full h-80 object-cover rounded-xl shadow-lg"
+                              />
+                              <div className="absolute inset-0 bg-gradient-to-t from-black/20 to-transparent rounded-xl" />
+                            </div>
+                            <div className="prose prose-lg max-w-none">
+                              <p className="text-slate-700 leading-relaxed text-lg">
+                                {period.details}
+                              </p>
+                            </div>
+                            <div className="bg-slate-50 rounded-xl p-6">
+                              <h4 className="font-bold text-slate-900 mb-4 text-xl">
+                                Ключевые достижения периода:
                               </h4>
-                              <ul className="space-y-2">
+                              <div className="grid md:grid-cols-2 gap-4">
                                 {period.achievements.map((achievement, i) => (
-                                  <li
+                                  <div
                                     key={i}
-                                    className="flex items-start gap-2"
+                                    className="flex items-start gap-3 p-2"
                                   >
                                     <Icon
-                                      name="CheckCircle"
-                                      className={`w-5 h-5 mt-0.5 ${
+                                      name="Crown"
+                                      className={`w-6 h-6 mt-1 ${
                                         period.color === "emerald"
                                           ? "text-emerald-500"
-                                          : period.color === "coral"
-                                            ? "text-orange-500"
-                                            : "text-slate-500"
+                                          : period.color === "amber"
+                                            ? "text-amber-500"
+                                            : period.color === "blue"
+                                              ? "text-blue-500"
+                                              : "text-teal-500"
                                       }`}
                                     />
-                                    <span className="text-slate-700">
+                                    <span className="text-slate-700 font-medium">
                                       {achievement}
                                     </span>
-                                  </li>
+                                  </div>
                                 ))}
-                              </ul>
+                              </div>
                             </div>
                           </div>
                         </DialogContent>
@@ -224,41 +277,75 @@ const ParallaxSections = () => {
                 </motion.div>
 
                 <motion.div
-                  initial={{ opacity: 0, x: isEven ? 60 : -60 }}
+                  initial={{ opacity: 0, x: isEven ? 80 : -80 }}
                   whileInView={{ opacity: 1, x: 0 }}
-                  transition={{ duration: 0.8, delay: 0.2 }}
+                  transition={{ duration: 1, delay: 0.3, ease: "easeOut" }}
                   className={isEven ? "lg:order-2" : "lg:order-1"}
                 >
-                  <div className="relative">
-                    <img
-                      src={period.image}
-                      alt={period.title}
-                      className="w-full h-96 object-cover rounded-2xl shadow-2xl"
-                    />
-                    <div className="absolute inset-0 bg-gradient-to-t from-black/20 to-transparent rounded-2xl" />
-                    <div className="absolute bottom-6 left-6 right-6">
-                      <h3 className="text-white text-2xl font-serif font-bold mb-2">
-                        {period.period}
-                      </h3>
-                      <p className="text-white/90 text-lg">{period.years}</p>
+                  <div className="relative group">
+                    <div className="absolute -inset-4 bg-gradient-to-r from-amber-400 to-orange-500 rounded-3xl blur opacity-25 group-hover:opacity-40 transition duration-500" />
+                    <div className="relative">
+                      <img
+                        src={period.image}
+                        alt={period.title}
+                        className="w-full h-[500px] object-cover rounded-2xl shadow-2xl group-hover:shadow-3xl transition-all duration-500"
+                      />
+                      <div className="absolute inset-0 bg-gradient-to-t from-black/40 via-transparent to-transparent rounded-2xl" />
+                      <div className="absolute bottom-8 left-8 right-8">
+                        <motion.div
+                          initial={{ opacity: 0, y: 20 }}
+                          whileInView={{ opacity: 1, y: 0 }}
+                          transition={{ duration: 0.8, delay: 0.5 }}
+                          className="bg-white/90 backdrop-blur-sm rounded-xl p-6 shadow-xl"
+                        >
+                          <h3 className="text-slate-900 text-2xl font-serif font-bold mb-2">
+                            {period.period}
+                          </h3>
+                          <p className="text-slate-700 text-lg font-medium">
+                            {period.years}
+                          </p>
+                        </motion.div>
+                      </div>
                     </div>
                   </div>
                 </motion.div>
               </div>
             </div>
 
-            {/* Decorative elements */}
-            <div className="absolute top-20 right-20 w-32 h-32 opacity-10">
+            {/* Enhanced decorative elements */}
+            <motion.div
+              className="absolute top-20 right-20 w-40 h-40 opacity-15"
+              style={{ y: yTransform }}
+            >
               <div
-                className={`w-full h-full border-2 rounded-full ${
+                className={`w-full h-full border-2 rounded-full animate-pulse ${
                   period.color === "emerald"
                     ? "border-emerald-400"
-                    : period.color === "coral"
-                      ? "border-orange-400"
-                      : "border-slate-400"
+                    : period.color === "amber"
+                      ? "border-amber-400"
+                      : period.color === "blue"
+                        ? "border-blue-400"
+                        : "border-teal-400"
                 }`}
               />
-            </div>
+            </motion.div>
+
+            <motion.div
+              className="absolute bottom-32 left-16 w-24 h-24 opacity-10"
+              style={{ y: yTransform }}
+            >
+              <div
+                className={`w-full h-full border rotate-45 ${
+                  period.color === "emerald"
+                    ? "border-emerald-400"
+                    : period.color === "amber"
+                      ? "border-amber-400"
+                      : period.color === "blue"
+                        ? "border-blue-400"
+                        : "border-teal-400"
+                }`}
+              />
+            </motion.div>
           </div>
         );
       })}
