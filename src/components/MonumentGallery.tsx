@@ -95,7 +95,7 @@ const MonumentGallery = () => {
           <h2 className="text-4xl font-bold text-slate-900 mb-4 font-serif">
             Галерея Памятников
           </h2>
-          <p className="text-lg text-slate-600 max-w-2xl mx-auto">
+          <p className="text-lg text-slate-700 max-w-2xl mx-auto">
             Детальное изучение архитектурных шедевров петровского барокко
           </p>
         </motion.div>
@@ -109,7 +109,7 @@ const MonumentGallery = () => {
               transition={{ duration: 0.8, delay: index * 0.2 }}
             >
               <Card className="overflow-hidden shadow-lg">
-                <CardHeader className="bg-slate-50">
+                <CardHeader className="bg-slate-50 border-b border-slate-200">
                   <CardTitle className="text-3xl font-serif text-slate-900">
                     {monument.name}
                   </CardTitle>
@@ -132,7 +132,7 @@ const MonumentGallery = () => {
                       <ul className="space-y-2">
                         {monument.facts.map((fact, i) => (
                           <li key={i} className="flex items-start">
-                            <span className="text-yellow-500 mr-2">•</span>
+                            <span className="text-orange-500 mr-2">•</span>
                             <span className="text-slate-600 text-sm">
                               {fact}
                             </span>

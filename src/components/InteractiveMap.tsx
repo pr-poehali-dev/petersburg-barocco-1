@@ -97,7 +97,7 @@ const InteractiveMap = () => {
   };
 
   return (
-    <section id="map" className="py-16 bg-slate-900">
+    <section id="map" className="py-16 bg-slate-100">
       <div className="container mx-auto px-4">
         <motion.div
           initial={{ opacity: 0, y: 30 }}
@@ -105,10 +105,10 @@ const InteractiveMap = () => {
           transition={{ duration: 0.8 }}
           className="text-center mb-12"
         >
-          <h2 className="text-4xl font-bold text-white mb-4 font-serif">
+          <h2 className="text-4xl font-bold text-slate-900 mb-4 font-serif">
             Карта Петровского Барокко
           </h2>
-          <p className="text-lg text-slate-300 max-w-2xl mx-auto">
+          <p className="text-lg text-slate-700 max-w-2xl mx-auto">
             Интерактивная карта памятников архитектуры эпохи Петра Великого
           </p>
         </motion.div>
@@ -121,12 +121,12 @@ const InteractiveMap = () => {
             transition={{ duration: 0.8 }}
             className="relative"
           >
-            <div className="relative bg-blue-100 rounded-lg h-96 overflow-hidden">
+            <div className="relative bg-emerald-50 rounded-lg h-96 overflow-hidden border-2 border-emerald-100">
               {/* Map background - simplified St. Petersburg */}
-              <div className="absolute inset-0 bg-gradient-to-br from-blue-200 to-blue-300">
+              <div className="absolute inset-0 bg-gradient-to-br from-emerald-100 to-emerald-200">
                 {/* Neva river */}
-                <div className="absolute top-1/3 left-0 right-0 h-8 bg-blue-400 transform rotate-12"></div>
-                <div className="absolute top-1/2 left-1/4 right-0 h-6 bg-blue-400 transform -rotate-6"></div>
+                <div className="absolute top-1/3 left-0 right-0 h-8 bg-emerald-400 transform rotate-12"></div>
+                <div className="absolute top-1/2 left-1/4 right-0 h-6 bg-emerald-400 transform -rotate-6"></div>
               </div>
 
               {/* Monument markers */}
@@ -137,7 +137,7 @@ const InteractiveMap = () => {
                   animate={{ scale: 1 }}
                   whileHover={{ scale: 1.2 }}
                   whileTap={{ scale: 0.9 }}
-                  className="absolute w-6 h-6 bg-yellow-500 rounded-full border-2 border-white shadow-lg hover:bg-yellow-400 transition-colors z-10"
+                  className="absolute w-6 h-6 bg-orange-500 rounded-full border-2 border-white shadow-lg hover:bg-orange-400 transition-colors z-10"
                   style={{
                     left: `${monument.position.x}%`,
                     top: `${monument.position.y}%`,
@@ -151,9 +151,9 @@ const InteractiveMap = () => {
             </div>
 
             {/* Legend */}
-            <div className="mt-4 text-sm text-slate-300">
+            <div className="mt-4 text-sm text-slate-700">
               <p className="flex items-center">
-                <div className="w-4 h-4 bg-yellow-500 rounded-full mr-2"></div>
+                <div className="w-4 h-4 bg-orange-500 rounded-full mr-2"></div>
                 Памятники петровского барокко
               </p>
             </div>

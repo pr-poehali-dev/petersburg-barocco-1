@@ -5,7 +5,7 @@ import Icon from "@/components/ui/icon";
 
 const Conclusion = () => {
   return (
-    <section className="py-16 bg-gradient-to-br from-slate-900 via-blue-900 to-slate-800">
+    <section className="py-16 bg-gradient-to-br from-slate-900 via-emerald-900 to-slate-800">
       <div className="container mx-auto px-4">
         <motion.div
           initial={{ opacity: 0, y: 30 }}
@@ -50,9 +50,9 @@ const Conclusion = () => {
               whileInView={{ opacity: 1, y: 0 }}
               transition={{ duration: 0.6, delay: index * 0.2 }}
             >
-              <Card className="bg-white/10 backdrop-blur-sm border-white/20 text-white">
+              <Card className="bg-white/10 backdrop-blur-sm border-white/20 text-white hover:bg-white/15 transition-colors">
                 <CardContent className="p-6 text-center">
-                  <div className="w-16 h-16 bg-yellow-500 rounded-full mx-auto mb-4 flex items-center justify-center">
+                  <div className="w-16 h-16 bg-orange-500 rounded-full mx-auto mb-4 flex items-center justify-center">
                     <Icon
                       name={item.icon as any}
                       className="w-8 h-8 text-black"
@@ -90,7 +90,7 @@ const Conclusion = () => {
               <div className="flex flex-col sm:flex-row gap-4 justify-center">
                 <Button
                   size="lg"
-                  className="bg-yellow-500 hover:bg-yellow-600 text-black font-semibold"
+                  className="bg-orange-500 hover:bg-orange-600 text-white font-semibold"
                   onClick={() =>
                     window.scrollTo({ top: 0, behavior: "smooth" })
                   }
@@ -102,7 +102,7 @@ const Conclusion = () => {
                 <Button
                   variant="outline"
                   size="lg"
-                  className="border-yellow-500 text-yellow-500 hover:bg-yellow-500 hover:text-black"
+                  className="border-orange-500 text-orange-500 hover:bg-orange-500 hover:text-white"
                 >
                   <Icon name="BookOpen" className="mr-2" />
                   Читать далее
