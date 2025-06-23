@@ -104,9 +104,9 @@ const periods: HistoricalPeriod[] = [
       "Формирование архитектурных традиций",
     ],
     image:
-      "https://cdn.poehali.dev/files/86c92a90-c04a-41ac-8330-e049cada6277.png",
+      "https://cdn.poehali.dev/files/b07e1659-2a92-494c-8284-d4a09d710cd9.jpg",
     backgroundImage:
-      "https://cdn.poehali.dev/files/edc53115-6f21-4f69-9f35-398cbbe034a7.jpg",
+      "https://cdn.poehali.dev/files/b07e1659-2a92-494c-8284-d4a09d710cd9.jpg",
     color: "teal",
   },
 ];
