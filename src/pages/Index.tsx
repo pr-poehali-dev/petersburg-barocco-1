@@ -1,7 +1,7 @@
 import Hero from "@/components/Hero";
 import ParallaxSections from "@/components/ParallaxSections";
 import InteractiveMap from "@/components/InteractiveMap";
-import MonumentGallery from "@/components/MonumentGallery";
+import HistoricalTimeline from "@/components/HistoricalTimeline";
 import Conclusion from "@/components/Conclusion";
 
 const Index = () => {
@@ -10,7 +10,7 @@ const Index = () => {
       <Hero />
       <ParallaxSections />
       <InteractiveMap />
-      <MonumentGallery />
+      <HistoricalTimeline />
       <Conclusion />
     </div>
   );
